@@ -1,17 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './components/App';
-import Profile from './components/Profile';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Profile a= "a" b= "b" c= "c" name ="Nguyen Thanh A" age ="25"/>
-    <Profile a= "a" b= "b" c= "c" name ="Nguyen Thanh B" age ="30"/>
-
+    <App />
   </React.StrictMode>
 );
 
