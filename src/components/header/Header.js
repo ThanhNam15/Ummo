@@ -38,31 +38,31 @@ export default function Header() {
     <Container>
       <Navbar expand="md">
         <NavbarBrand>
-          <link to='/'>
+          <Link to='/'>
             <img src={logo} alt="logo" width="100px"/>
-          </link>
+          </Link>
         </NavbarBrand>
         <NavbarToggler className="header_toggle" onClick={toggle}><AiOutlineMenu color="var(--black-color)" /></NavbarToggler>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mx-auto" navbar>
             <NavItem className="mx-3">
-              <NavLink className="header_text" style={{fontWeight: "600"}}>
-                <Link style={{fontWeight: "600", textDecoration: "none", color: "var(--text-color)"}} to='/'>HOME</Link>
+              <NavLink className="header_text">
+                <Link style={{fontWeight: "600", textDecoration: "none", color: "var(--text-color)"}} to={"/"}>HOME</Link>
+              </NavLink>
+            </NavItem>
+            <NavItem className="mx-3">
+              <NavLink className="header_text">
+                <Link style={{fontWeight: "600", textDecoration: "none", color: "var(--text-color)"}} to={"/shop"}>SHOP</Link>                
               </NavLink>
             </NavItem>
             <NavItem className="mx-3">
               <NavLink className="header_text" style={{fontWeight: "600"}}>
-                <Link style={{fontWeight: "600", textDecoration: "none", color: "var(--text-color)"}} to='/shop'>SHOP</Link>                
+                <Link style={{fontWeight: "600", textDecoration: "none", color: "var(--text-color)"}} to={"/contact"}>CONTACT</Link>                
               </NavLink>
             </NavItem>
             <NavItem className="mx-3">
               <NavLink className="header_text" style={{fontWeight: "600"}}>
-                <Link style={{fontWeight: "600", textDecoration: "none", color: "var(--text-color)"}} to='/contact'>CONTACT</Link>                
-              </NavLink>
-            </NavItem>
-            <NavItem className="mx-3">
-              <NavLink className="header_text" style={{fontWeight: "600"}}>
-                <Link style={{fontWeight: "600", textDecoration: "none", color: "var(--text-color)"}} to='/blog'>BLOG</Link>                
+                <Link style={{fontWeight: "600", textDecoration: "none", color: "var(--text-color)"}} to={"/blog"}>BLOG</Link>                
               </NavLink>
             </NavItem>
           </Nav>
