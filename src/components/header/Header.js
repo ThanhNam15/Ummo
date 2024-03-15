@@ -43,7 +43,7 @@ export default function Header() {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mx-auto" navbar>
             <NavItem className="mx-3">
-              <Link className="header_text" style={{fontWeight: "600"}} href='/'>HOME</Link>
+              <Link className="header_text" style={{fontWeight: "600"}} to='/'>HOME</Link>
             </NavItem>
             <NavItem className="mx-3">
               <NavLink className="header_text" style={{fontWeight: "600"}} href='/shop'>SHOP</NavLink>
