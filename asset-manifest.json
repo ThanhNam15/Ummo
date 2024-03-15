@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/Ummo/static/css/main.4d55a25a.css",
-    "main.js": "/Ummo/static/js/main.017d517d.js",
-    "static/js/787.f22b8f29.chunk.js": "/Ummo/static/js/787.f22b8f29.chunk.js",
+    "main.js": "/Ummo/static/js/main.ec932f83.js",
     "static/media/post_5.webp": "/Ummo/static/media/post_5.dd525abda605363ec22c.webp",
     "static/media/post_4.webp": "/Ummo/static/media/post_4.f9b9d1c09ac1b97663d9.webp",
     "static/media/slider_1.webp": "/Ummo/static/media/slider_1.9d57fa60bcce73b7799e.webp",
@@ -51,11 +50,10 @@
     "static/media/product_21.webp": "/Ummo/static/media/product_21.347dfc314b188ddf2b4d.webp",
     "index.html": "/Ummo/index.html",
     "main.4d55a25a.css.map": "/Ummo/static/css/main.4d55a25a.css.map",
-    "main.017d517d.js.map": "/Ummo/static/js/main.017d517d.js.map",
-    "787.f22b8f29.chunk.js.map": "/Ummo/static/js/787.f22b8f29.chunk.js.map"
+    "main.ec932f83.js.map": "/Ummo/static/js/main.ec932f83.js.map"
   },
   "entrypoints": [
     "static/css/main.4d55a25a.css",
-    "static/js/main.017d517d.js"
+    "static/js/main.ec932f83.js"
   ]
 }
