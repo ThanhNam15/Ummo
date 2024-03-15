@@ -21,7 +21,7 @@ function App() {
             <AppProvider>
                 <BrowserRouter>
                     <Routes>
-                        <Route path='/' element={<Home/>}/>
+                        <Route path='*' element={<Home/>}/>
                         <Route path='/shop' element={<Shop/>}/>
                         <Route path='/contact' element={<Contact/>}/>
                         <Route path='/blog' element={<Blog />}/>
@@ -31,7 +31,7 @@ function App() {
                         <Route path='/payment' element={<Payment/>}/>
                         <Route path='/login' element={<Login/>}/>
                         <Route path='/register' element={<Register/>}/>
-                        <Route path='*' element={<NotFound/>}/>
+                        <Route path='/notFound' element={<NotFound/>}/>
                     </Routes>
                 </BrowserRouter>
             </AppProvider>

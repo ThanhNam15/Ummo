@@ -19,7 +19,6 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
     sidebarRef.current.classList.toggle("active");
-    // setIsOpen(!isOpen);
   };
 
   useEffect(() => {
@@ -38,21 +37,33 @@ export default function Header() {
     <div className="header fixed-top">
     <Container>
       <Navbar expand="md">
-        <NavbarBrand href='/'><img src={logo} alt="logo" width="100px"/></NavbarBrand>
+        <NavbarBrand>
+          <link to='/'>
+            <img src={logo} alt="logo" width="100px"/>
+          </link>
+        </NavbarBrand>
         <NavbarToggler className="header_toggle" onClick={toggle}><AiOutlineMenu color="var(--black-color)" /></NavbarToggler>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mx-auto" navbar>
             <NavItem className="mx-3">
-              <Link className="header_text" style={{fontWeight: "600"}} to='/'>HOME</Link>
+              <NavLink className="header_text" style={{fontWeight: "600"}}>
+                <Link style={{fontWeight: "600", textDecoration: "none", color: "var(--text-color)"}} to='/'>HOME</Link>
+              </NavLink>
             </NavItem>
             <NavItem className="mx-3">
-              <NavLink className="header_text" style={{fontWeight: "600"}} href='/shop'>SHOP</NavLink>
+              <NavLink className="header_text" style={{fontWeight: "600"}}>
+                <Link style={{fontWeight: "600", textDecoration: "none", color: "var(--text-color)"}} to='/shop'>SHOP</Link>                
+              </NavLink>
             </NavItem>
             <NavItem className="mx-3">
-              <NavLink className="header_text" style={{fontWeight: "600"}} href='/contact'>CONTACT</NavLink>
+              <NavLink className="header_text" style={{fontWeight: "600"}}>
+                <Link style={{fontWeight: "600", textDecoration: "none", color: "var(--text-color)"}} to='/contact'>CONTACT</Link>                
+              </NavLink>
             </NavItem>
             <NavItem className="mx-3">
-              <NavLink className="header_text" style={{fontWeight: "600"}} href='/blog'>BLOG</NavLink>
+              <NavLink className="header_text" style={{fontWeight: "600"}}>
+                <Link style={{fontWeight: "600", textDecoration: "none", color: "var(--text-color)"}} to='/blog'>BLOG</Link>                
+              </NavLink>
             </NavItem>
           </Nav>
           <Nav>
@@ -88,6 +99,7 @@ export default function Header() {
         </Collapse>
       </Navbar>
     </Container>
+
     <div className="sidebar" ref={sidebarRef}>
       <div className="sidebar-intro">
         <div className="sidebar-logo">
