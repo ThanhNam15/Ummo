@@ -21,16 +21,16 @@ function App() {
             <AppProvider>
                 <BrowserRouter>
                     <Routes>
-                        <Route index element={<Home/>}/>
-                        <Route path="/shop" element={<Shop/>}/>
-                        <Route path="/contact" element={<Contact/>}/>
-                        <Route path="/blog" element={<Blog />}/>
-                        <Route path="/blog/:id" element={<Blog_detail/>}/>
-                        <Route path="/product/:id" element={<Shop_detail/>}/>
-                        <Route path="/cart" element={<Cart/>}/>
-                        <Route path="/payment" element={<Payment/>}/>
-                        <Route path="/login" element={<Login/>}/>
-                        <Route path="/register" element={<Register/>}/>
+                        <Route path='/' element={<Home/>}/>
+                        <Route path='/shop' element={<Shop/>}/>
+                        <Route path='/contact' element={<Contact/>}/>
+                        <Route path='/blog' element={<Blog />}/>
+                        <Route path='/blog/:id' element={<Blog_detail/>}/>
+                        <Route path='/product/:id' element={<Shop_detail/>}/>
+                        <Route path='/cart' element={<Cart/>}/>
+                        <Route path='/payment' element={<Payment/>}/>
+                        <Route path='/login' element={<Login/>}/>
+                        <Route path='/register' element={<Register/>}/>
                         <Route path="*" element={<NotFound/>}/>
                     </Routes>
                 </BrowserRouter>
