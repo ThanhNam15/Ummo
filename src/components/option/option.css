@@ -1,0 +1,45 @@
+.option {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.option-product {
+    width: 15%;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.option-product:hover {
+    transform: translate(0px, -20px) scale(1.0) rotate(0deg);
+}
+
+.option-product:hover .option-text {
+    color: var(--primary-color);
+}
+
+.option-img {
+    width: 100%;
+    margin-bottom: 12px;
+    clip-path: circle();
+}
+
+.option-text {
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+@media (max-width: 550px) {
+    .option {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 450px) {
+    .option-text {
+        font-size: 0.8rem;
+    }
+}
+
+
+

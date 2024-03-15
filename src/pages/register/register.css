@@ -1,0 +1,47 @@
+.login-info {
+    width: 100%;
+}
+
+.login-info-first {
+    width: 100%;
+    margin: 12px 0;
+}
+
+.login-info-first-press {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 12px;
+    border-radius: 4px;
+    padding-bottom: 14px;
+    border: 1px solid #ccc;
+}
+
+.login-info-first-press:focus {
+    padding-left: 12px;
+}
+
+.login-info-first-press::placeholder {
+    color: #ccc;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.login-info-last {
+    width: 100%;
+    margin: 12px 0;
+}
+
+.login-info-last-press {
+    width: 100%;
+    padding-top: 10px;
+    border-radius: 4px;
+    padding-left: 12px;
+    padding-bottom: 14px;
+    border: 1px solid #ccc;
+}
+
+.login-info-last-press::placeholder {
+    color: #ccc;
+    font-weight: 600;
+    font-size: 0.8rem;
+}

@@ -1,0 +1,166 @@
+.contact-info {
+    margin-bottom: 60px;
+}
+
+.contact-info-title {
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.contact-info-subtitle {
+    font-size: 0.8rem;
+}
+
+.contact-info-submit {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info-input {
+    width: 70%;
+}
+
+.contact-info-separate {
+    width: 90%;
+    display: flex;
+    margin-bottom: 12px;
+    justify-content: space-between;
+}
+
+.contact-info-name-fill {
+    width: 49%;
+    border: 1px solid #ccc;
+    padding: 6px 0 8px 12px;
+    border-radius: 4px;
+
+}
+
+.contact-info-number-fill {
+    width: 49%;
+    border: 1px solid #ccc;
+    padding: 6px 0 8px 12px;
+    border-radius: 4px;
+}
+
+.contact-info-email {
+    width: 90%;
+    margin-bottom: 12px;
+}
+
+.contact-info-email-fill {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 6px 0 8px 12px;
+    border-radius: 4px;
+}
+
+.contact-info-message {
+    width: 90%;
+    margin-bottom: 16px;
+}
+
+.contact-info-message-fill {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 6px 0 100px 12px;
+    border-radius: 4px;
+}
+
+.contact-info-name-fill::placeholder,
+.contact-info-number-fill::placeholder,
+.contact-info-email-fill::placeholder,
+.contact-info-message-fill::placeholder {
+    color: #ccc;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.contact-info-name-fill:focus,
+.contact-info-number-fill:focus,
+.contact-info-email-fill:focus,
+.contact-info-message-fill:focus {
+    outline: none;
+}
+
+.contact-info-btn {
+    width: 90%;
+    padding: 8px 0;
+    text-align: center;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-radius: 4px;
+}
+
+.contact-info-btn:hover {
+    cursor: pointer;
+    background-color: var(--black-color);
+}
+
+.contact-info-support {
+    width: 30%;
+}
+
+.contact-info-add,
+.contact-info-mail,
+.contact-info-call,
+.contact-info-open {
+    margin-bottom: 20px;
+}
+
+.contact-info-add span,
+.contact-info-mail span,
+.contact-info-call span,
+.contact-info-open span {
+    font-weight: 600;
+}
+
+.contact-margin {
+    margin-bottom: 180px;
+}
+
+@media (max-width: 991px) {
+    .contact-info-submit {
+        display: block;
+        margin-top: 24px;
+    }
+    .contact-info-separate {
+        width: 100%;
+    }
+    .contact-info-email {
+        width: 100%;
+    }
+    .contact-info-message {
+        width: 100%;
+    }
+    .contact-info-btn {
+        width: 100%;
+    }
+    .contact-info-input {
+        width: 100%;
+    }
+    .contact-info-support {
+        width: 100%;
+    }
+    .contact-info-call {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-info-add,
+    .contact-info-mail,
+    .contact-info-call,
+    .contact-info-open {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .contact-info-add,
+    .contact-info-mail,
+    .contact-info-call,
+    .contact-info-open {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,462 @@
+.payment {
+    display: flex;
+    position: relative;
+}
+
+.payment-left {
+    width: 55%;
+    height: 100%;
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+
+.payment-right {
+    right: 0;
+    top: 72px;
+    width: 45%;
+    height: 100%;
+    position: fixed;
+    padding-top: 28px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #f5f5f5;
+}
+
+.payment-paypal {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.payment-paypal-express {
+    color: #848484;
+    font-size: 0.9rem;
+}
+
+.payment-paypal-btn {
+    width: 80%;
+    margin: 0 auto;
+    padding: 4px 0;
+    border-radius: 4px;
+    background-color: #ffc439;
+}
+
+.payment-paypal-btn:hover {
+    cursor: pointer;
+    filter: brightness(0.9);
+}
+
+.payment-or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-or-line {
+    width: 46%;
+    height: 0.5px;
+    background-color: #ccc;
+}
+
+.payment-or-text {
+    width: 8%;
+    font-size: 1rem;
+    color: #848484;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.payment-contact {
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+.payment-contact-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.payment-contact-title-left {
+    font-size: 1.6rem;
+}
+
+.payment-contact-title-right {
+    color: #848484;
+    font-size: 0.9rem;
+}
+
+.payment-contact-login {
+    margin-left: 6px;
+}
+
+.payment-contact-input {
+    width: 100%;
+}
+
+.payment-contact-input-press {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+}
+
+.payment-contact-input-press::placeholder {
+    font-size: 0.9rem;    
+}
+
+.payment-contact-input-check {
+    display: flex;
+    align-items: center;
+}
+
+.payment-contact-input-check span {
+    font-size: 0.8rem;
+}
+
+.payment-contact-input-check-press {
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.payment-delivery {
+    margin-bottom: 24px;
+}
+
+.payment-delivery-title {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+}
+
+.payment-delivery-input {
+    width: 100%;
+}
+
+.payment-delivery-country-press {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+}
+
+.payment-delivery-country-press::placeholder {
+    font-size: 0.9rem;    
+}
+
+.payment-delivery-name {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.payment-delivery-last-press {
+    width: 49%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.payment-delivery-first-press {
+    width: 49%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.payment-delivery-last-press::placeholder,
+.payment-delivery-first-press::placeholder {
+    font-size: 0.9rem;
+}
+
+.payment-delivery-address-press {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+}
+
+.payment-delivery-address-press::placeholder {
+    font-size: 0.9rem;
+}
+
+.payment-delivery-info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.payment-delivery-city-press {
+    width: 49%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.payment-delivery-code-press {
+    width: 49%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.payment-delivery-city-press::placeholder,
+.payment-delivery-code-press::placeholder {
+    font-size: 0.9rem;
+} 
+
+.payment-delivery-input-check {
+    display: flex;
+    align-items: center;
+}
+
+.payment-delivery-input-check span {
+    font-size: 0.8rem;
+}
+
+.payment-delivery-input-check-press {
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.payment-shipping {
+    margin-bottom: 40px;
+}
+
+.payment-shipping-title {
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
+
+.payment-shipping-standard {
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #1773b0;
+    background-color: #f0f5ff;
+    border-radius: 4px;
+}
+
+.payment-shipping-standard-text {
+    font-size: 0.9rem;
+}
+
+.payment-shipping-standard-free {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.payment-payment-title {
+    font-size: 1.6rem;
+}
+
+.payment-payment-subtitle {
+    color: #848484;
+    font-size: 0.8rem;
+    margin-bottom: 16px;
+}
+
+.payment-payment-info {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+
+.payment-payment-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white-color);
+    padding: 20px 12px;
+    margin-bottom: 16px;
+}
+
+.payment-payment-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-payment-number {
+    width: 95%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+}
+
+.payment-payment-number::placeholder {
+    font-size: 0.9rem;
+}
+
+.payment-payment-name {
+    width: 95%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+}
+
+.payment-payment-name::placeholder {
+    font-size: 0.9rem;
+}
+
+.payment-payment-center-date-code {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-payment-date-press {
+    width: 48%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 16px;
+}
+
+.payment-payment-date-press::placeholder {
+    font-size: 0.9rem;
+}
+
+.payment-payment-code-press {
+    width: 48%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 16px;
+}
+
+.payment-payment-code-press::placeholder {
+    font-size: 0.9rem;
+}
+
+.payment-payment-input-check {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.payment-payment-input-check span {
+    font-size: 0.8rem;
+}
+
+.payment-payment-input-check-press {
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.payment-payment-btn {
+    width: 100%;
+    padding: 12px;
+    font-weight: 600;
+    border-radius: 4px;
+    text-align: center;
+    color: var(--white-color);
+    background-color: #1773b0;
+}
+
+.payment-payment-btn:hover {
+    cursor: pointer;
+    filter: brightness(0.9);
+}
+
+.payment-product {
+    margin-bottom: 20px;
+}
+
+.payment-product-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.payment-free {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    color: #1773b0;
+}
+
+.payment-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+    .payment {
+        display: block;
+    }
+    .payment-left {
+        width: 100%;
+        height: 220vh;
+        display: block;
+        padding-top: 100px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .payment-right {
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 550px) {
+    .payment-delivery-name {
+        display: block;
+    }
+    .payment-delivery-last-press {
+        width: 100%;
+    }
+    .payment-delivery-first-press {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .payment-delivery-info {
+        display: block;
+    }
+    .payment-delivery-city-press {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .payment-delivery-code-press {
+        width: 100%;
+    }
+    .payment-payment-center-date-code {
+        display: block;
+    }
+    .payment-payment-date-press {
+        width: 100%;
+    }
+    .payment-payment-code-press {
+        width: 100%;
+    }
+    .payment-paypal-btn img {
+        width: 20% !important;
+    }  
+    .payment-left {
+        width: 100%;
+        height: 250vh;
+        display: block;
+        padding-top: 100px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}

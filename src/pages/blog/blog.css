@@ -1,0 +1,40 @@
+.navigation {
+    width: 100%;
+    padding: 170px 0 100px;
+    text-align: center; 
+    margin-bottom: 100px;
+    background-color: var(--navigation-color);  
+}
+
+.navigation-title {
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+
+.navigation-subtitle {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-subtitle-back,
+.navigation-subtitle-now {
+    margin: 12px 10px;
+}
+
+.navigation-subtitle-back {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-subtitle-info {
+    margin-left: 4px;
+}
+
+.navigation-subtitle-link {
+    margin-left: 6px;
+    color: var(--text-color);
+}
+
+.navigation-subtitle-link:hover {
+    color: var(--primary-color);
+}

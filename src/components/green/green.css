@@ -1,0 +1,44 @@
+.green {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.green-product {
+    margin-bottom: 60px;
+}
+
+.green-title {
+    font-weight: 500;
+    font-size: 2.4rem;
+    color: var(--text-color);
+}
+
+.green-subtitle {
+    margin-bottom: 40px;
+    margin-top: 12px;
+    font-size: 1rem;
+    color: #778082;
+}
+
+.green-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green-img {
+    width: 100%;
+    transition: 0.2s;
+    margin-bottom: 24px;
+}
+
+.green-img:hover {
+    transform: translateY(-2%);
+    filter: brightness(95%);
+}
+
+
+
+
+

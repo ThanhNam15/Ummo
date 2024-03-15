@@ -1,50 +1,40 @@
-// import Products from "./components/product/Products";
-// import Counter from "./components/counter/Counter";
-// import Props from "./components/props/Props";
-// import CountUp from "./components/useState/Count_up";
-// import CountDown from "./components/useState/Count_down";
-// import Info from "./components/useState/Info";
-// import Calc from "./components/useState/Calc";
-// import Object from "./components/useState/Object";
-// import Account from "./components/useState/Account";
-// import Effect from "./components/useState/Effect";
-// import API from "./components/useState/API";
-// import Weather from "./components/useState/Weather";
-// import ReactStrap from "./components/useState/ReactStrap";
-import Header from "./components/header/Header";
+import "./css/base.css";
+
+import { AppProvider } from "./AppContext";
+import { BrowserRouter, Routes, Route, } from "react-router-dom";
+
+import NotFound from "./components/notFound/NotFound";
+import Home from "./pages/home/Home";
+import Shop from "./pages/shop/Shop";
+import Blog from "./pages/blog/Blog";
+import Contact from "./pages/contact/Contact";
+import Blog_detail from "./pages/blog_detail/Blog_detail";
+import Shop_detail from "./pages/shop_detail/Shop_detail";
+import Cart from "./pages/cart/Cart";
+import Payment from "./pages/payment/Payment";
+import Login from "./pages/login/Login";
+import Register from "./pages/register/Register";
 
 function App() {
     return (
         <div>
-            {/* <Products></Products> */}
-
-            {/* <Counter name = "abc" age = "123">
-                <h1>ReactJS</h1>
-            </Counter>  */}
-
-            {/* <Props></Props> */}
-
-            {/* <CountDown></CountDown> */}
-
-            {/* <CountUp></CountUp> */}
-            
-            {/* <Info></Info> */}
-
-            {/* <Calc></Calc> */}
-
-            {/* <Object></Object> */}
-
-            {/* <Account></Account> */}
-
-            {/* <Effect></Effect> */}
-
-            {/* <API></API> */}
-
-            {/* <Weather></Weather> */}
-
-            {/* <ReactStrap></ReactStrap> */}
-
-            <Header></Header>
+            <AppProvider>
+                <BrowserRouter>
+                    <Routes>
+                        <Route index element={<Home/>}/>
+                        <Route path="/shop" element={<Shop/>}/>
+                        <Route path="/contact" element={<Contact/>}/>
+                        <Route path="/blog" element={<Blog />}/>
+                        <Route path="/blog/:id" element={<Blog_detail/>}/>
+                        <Route path="/product/:id" element={<Shop_detail/>}/>
+                        <Route path="/cart" element={<Cart/>}/>
+                        <Route path="/payment" element={<Payment/>}/>
+                        <Route path="/login" element={<Login/>}/>
+                        <Route path="/register" element={<Register/>}/>
+                        <Route path="*" element={<NotFound/>}/>
+                    </Routes>
+                </BrowserRouter>
+            </AppProvider>
         </div>
     )
 }

@@ -1,0 +1,41 @@
+.notfound {
+    text-align: center;
+    padding: 100px 0 200px;
+}
+
+.notfound-404 {
+    font-size: 6rem;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+
+.notfound-title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.notfound-subtitle {
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+}
+
+.notfound-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.notfound-btn-home,
+.notfound-btn-shop {
+    margin: 0 8px;
+    padding: 20px 24px;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.notfound-btn-home:hover,
+.notfound-btn-shop:hover {
+    color: var(--white-color);
+    background-color: var(--black-color);
+}
+

@@ -1,0 +1,41 @@
+button.slick-arrow.slick-prev {
+    display: none !important;
+}
+
+button.slick-arrow.slick-next {
+    display: none !important;
+}
+
+.deal-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deal-title-text {
+    font-weight: 500;
+    font-size: 2.4rem;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.deal-subtitle {
+    color: #778082;
+    font-size: 1rem;
+    margin-top: 12px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.btn-left,
+.btn-right {
+    margin: 0 20px 8px;
+    font-size: 1.6rem;
+    color: var(--black-color);
+}
+
+.btn-left:hover,
+.btn-right:hover {
+    color: #848484;
+    cursor: pointer;
+}
