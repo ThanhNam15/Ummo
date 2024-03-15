@@ -38,21 +38,21 @@ export default function Header() {
     <div className="header fixed-top">
     <Container>
       <Navbar expand="md">
-        <NavbarBrand href="/"><img src={logo} alt="logo" width="100px"/></NavbarBrand>
+        <NavbarBrand to="/"><img src={logo} alt="logo" width="100px"/></NavbarBrand>
         <NavbarToggler className="header_toggle" onClick={toggle}><AiOutlineMenu color="var(--black-color)" /></NavbarToggler>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mx-auto" navbar>
             <NavItem className="mx-3">
-              <NavLink className="header_text" style={{fontWeight: "600"}} href="/">HOME</NavLink>
+              <NavLink className="header_text" style={{fontWeight: "600"}} to='/'>HOME</NavLink>
             </NavItem>
             <NavItem className="mx-3">
-              <NavLink className="header_text" style={{fontWeight: "600"}} href="/shop/">SHOP</NavLink>
+              <NavLink className="header_text" style={{fontWeight: "600"}} to='/shop'>SHOP</NavLink>
             </NavItem>
             <NavItem className="mx-3">
-              <NavLink className="header_text" style={{fontWeight: "600"}} href="/contact/">CONTACT</NavLink>
+              <NavLink className="header_text" style={{fontWeight: "600"}} to='/contact'>CONTACT</NavLink>
             </NavItem>
             <NavItem className="mx-3">
-              <NavLink className="header_text" style={{fontWeight: "600"}} href="/blog/">BLOG</NavLink>
+              <NavLink className="header_text" style={{fontWeight: "600"}} to='/blog/'>BLOG</NavLink>
             </NavItem>
           </Nav>
           <Nav>
