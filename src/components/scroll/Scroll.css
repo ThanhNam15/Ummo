@@ -1,0 +1,10 @@
+svg {
+    width: 20px !important;
+    height: 28px !important;
+}
+
+@media (max-width: 550px) {
+    .scroll {
+        display: none !important;
+    }
+}

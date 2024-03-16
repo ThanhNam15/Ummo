@@ -5,9 +5,8 @@ import Slider from "react-slick";
 
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
-
-import { useState, useEffect, useRef } from 'react';
 import { Container, Row } from 'reactstrap';
+import { useState, useEffect, useRef } from 'react';
 
 import axios from 'axios';
 

@@ -20,7 +20,7 @@ export default function Outstanding() {
                     <Col className="outstanding-left" sm={12} md={12} lg={6}>
                         <Link to={"/shop"} style={{textDecoration: "none"}} className="outstanding-left-left">
                             <div className="outstanding-left-img"><img src={product_1} alt="product" width="100%"/></div>
-                            <h6 className="outstanding-left-text"> - SIGNATURE - </h6>
+                            <h6 className="outstanding-left-text"> -SIGNATURE- </h6>
                             <div className="hide">HIDE</div>
                         </Link>
                     </Col>

@@ -40,7 +40,7 @@ export default function Footer() {
         </Col>
         <Col className="footer" sm={6} md={6} lg={3}>
           <div className="footer-logo">
-            <img src={logo} width="100px"/>
+            <img src={logo} alt="logo" width="100px"/>
           </div>
           <div className="footer-content">
             <p>Established since 1995, we inspire people through interior design.</p>
@@ -58,7 +58,7 @@ export default function Footer() {
           © Ummo 2024
         </div>
         <div className="footer-info-payment">
-          <span><img src={payment} width="120px" /></span>
+          <span><img src={payment} alt="payment" width="120px" /></span>
         </div>
       </div>
     </Container>

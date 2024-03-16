@@ -17,7 +17,7 @@
 .header_text::after {
     content: '';
     top: 100%;
-    left: 0;
+    left: 5%;
     height: 3px;
     width: 0;
     transition: 0.5s;
@@ -27,7 +27,7 @@
 }
 
 .header_text:hover::after {
-    width: 100%;
+    width: 90%;
 }
 
 .header_icon-search {

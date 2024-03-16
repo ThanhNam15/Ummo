@@ -13,6 +13,7 @@ import News from "../../components/news/News";
 import Explore from "../../components/explore/Explore";
 import Email from "../../components/email/Email";
 import Footer from "../../components/footer/Footer";
+import Scroll from "../../components/scroll/scroll";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Header/>
       <Slider/>
       <Option/>
+      <Scroll/>
       <Outstanding/>
       <Collection/>
       <Banner/>

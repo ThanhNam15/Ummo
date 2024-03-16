@@ -19,11 +19,11 @@ export default function Banner() {
                   <p>Suitable for various decorating styles, from modern to classic, this sofa is the perfect focal point for any living space. The blend of practicality and high aesthetics brings satisfaction to the users.</p>
                 </div>
                 <Link style={{textDecoration: "none"}} to={"/shop"}>
-                  <span className="banner-btn">Learn More</span>
+                  <div className="banner-btn">Learn More</div>
                 </Link>
               </Col>
               <Col className="banner-img" sm={12} md={12} lg={6}>
-                <img src={banner} width="100%"/>
+                <img src={banner} alt="banner" width="100%"/>
               </Col>
           </Row>
         </div>

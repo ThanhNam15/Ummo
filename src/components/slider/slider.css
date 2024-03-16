@@ -47,7 +47,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .discovery-caption {
         top: 42%;
         left: 50%;

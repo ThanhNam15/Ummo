@@ -23,7 +23,7 @@ export default function News() {
               <p className="news-blog-name">William Taylor</p>
             </div>
             <h4 className="news-blog-title">Minimalist interiors are a popular choice</h4>
-            <Link style={{textDecoration: "none"}} className="news-blog-btn">
+            <Link style={{textDecoration: "none"}} to={"/blog"} className="news-blog-btn">
               <span className="news-blog-text">Read more</span>
               <span className="news-blog-icon"><i class="fa-solid fa-arrow-right-long"></i></span>
             </Link>
@@ -37,7 +37,7 @@ export default function News() {
               <p className="news-blog-name">David Rake</p>
             </div>
             <h4 className="news-blog-title">Arrange furniture to suit your space</h4>
-            <Link style={{textDecoration: "none"}} className="news-blog-btn">
+            <Link style={{textDecoration: "none"}} to={"/blog"} className="news-blog-btn">
               <span className="news-blog-text">Read more</span>
               <span className="news-blog-icon"><i class="fa-solid fa-arrow-right-long"></i></span>
             </Link>
@@ -51,7 +51,7 @@ export default function News() {
               <p className="news-blog-name">John Evans</p>
             </div>
             <h4 className="news-blog-title">How to choose furniture for you</h4>
-            <Link style={{textDecoration: "none"}} className="news-blog-btn">
+            <Link style={{textDecoration: "none"}} to={"/blog"} className="news-blog-btn">
               <span className="news-blog-text">Read more</span>
               <span className="news-blog-icon"><i class="fa-solid fa-arrow-right-long"></i></span>
             </Link>

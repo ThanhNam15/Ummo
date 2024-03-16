@@ -3,7 +3,6 @@ import "./commit.css";
 
 import { Col, Row, Container } from 'reactstrap';
 
-
 export default function Commit() {
   return (
     <div>

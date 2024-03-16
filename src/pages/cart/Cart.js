@@ -122,7 +122,7 @@ export default function Cart() {
                 </div>
                 <div className="cart-price-shipping">
                   <h4 className="cart-price-shipping-text">SHIPPING : </h4>
-                  <h4 className="cart-price-shipping-info">Shipping & taxes calculated at checkout</h4>
+                  <h4 className="cart-price-shipping-info">Calculated at checkout</h4>
                 </div>
                 <div className="cart-price-free">
                   <h6 className="cart-price-free-text">CONGRATULATIONS! YOU'VE GOT FREE SHIPPING!</h6>
