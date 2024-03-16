@@ -1,9 +1,7 @@
 import "../../css/base.css";
 import "./footer.css";
 
-import { FaTiktok } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { Col, Row, Container } from "reactstrap";
 
@@ -46,10 +44,8 @@ export default function Footer() {
             <p>Established since 1995, we inspire people through interior design.</p>
           </div>
           <div className="footer-social">
-            <span><FaTiktok/></span>
-            <span><FaFacebookF/></span>
-            <span><FaYoutube/></span>
-            <span><FaInstagram/></span>
+            <span className="footer-social-instagram"><FaInstagram/></span>
+            <span className="footer-social-youtube"><FaYoutube/></span>
           </div>
         </Col>
       </Row>
