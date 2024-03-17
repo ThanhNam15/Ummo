@@ -34,7 +34,7 @@ export default function News() {
             </Link>
             <div className="news-blog-subtitle">
               <p className="news-blog-date">23 Nov 2024</p>
-              <p className="news-blog-name">David Rake</p>
+              <p className="news-blog-name">Heri Lynh</p>
             </div>
             <h4 className="news-blog-title">Arrange furniture to suit your space</h4>
             <Link style={{textDecoration: "none"}} to={"/blog"} className="news-blog-btn">
