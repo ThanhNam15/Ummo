@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ummo/static/css/main.bb4f3821.css",
-    "main.js": "/Ummo/static/js/main.5daf69aa.js",
+    "main.js": "/Ummo/static/js/main.a5b0823b.js",
     "static/media/post_5.webp": "/Ummo/static/media/post_5.dd525abda605363ec22c.webp",
     "static/media/post_4.webp": "/Ummo/static/media/post_4.f9b9d1c09ac1b97663d9.webp",
     "static/media/slider_1.webp": "/Ummo/static/media/slider_1.9d57fa60bcce73b7799e.webp",
@@ -50,10 +50,10 @@
     "static/media/product_21.webp": "/Ummo/static/media/product_21.347dfc314b188ddf2b4d.webp",
     "index.html": "/Ummo/index.html",
     "main.bb4f3821.css.map": "/Ummo/static/css/main.bb4f3821.css.map",
-    "main.5daf69aa.js.map": "/Ummo/static/js/main.5daf69aa.js.map"
+    "main.a5b0823b.js.map": "/Ummo/static/js/main.a5b0823b.js.map"
   },
   "entrypoints": [
     "static/css/main.bb4f3821.css",
-    "static/js/main.5daf69aa.js"
+    "static/js/main.a5b0823b.js"
   ]
 }
