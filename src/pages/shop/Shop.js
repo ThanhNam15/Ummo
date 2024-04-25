@@ -20,7 +20,7 @@ export default function Shop() {
       <Header />
       {/* Navigation */}
       <div className="navigation">
-        <h1 className="navigation-title">SHOP</h1>
+        <h2 className="navigation-title">SHOP</h2>
         <div className="navigation-subtitle">
           <div className="navigation-subtitle-back">
             <IoHomeOutline/>

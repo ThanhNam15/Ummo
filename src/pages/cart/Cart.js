@@ -53,7 +53,7 @@ export default function Cart() {
         <Header/>
         {/* Navigation */}
         <div className="navigation">
-            <h1 className="navigation-title">CART</h1>
+            <h2 className="navigation-title">CART</h2>
             <div className="navigation-subtitle">
             <div className="navigation-subtitle-back">
                 <IoHomeOutline/>

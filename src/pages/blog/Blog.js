@@ -17,7 +17,7 @@ export default function Blog() {
       <Header/>
       {/* Navigation */}
       <div className="navigation">
-        <h1 className="navigation-title">BLOG</h1>
+        <h2 className="navigation-title">BLOG</h2>
         <div className="navigation-subtitle">
           <div className="navigation-subtitle-back">
             <IoHomeOutline/>

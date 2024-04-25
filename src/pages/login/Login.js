@@ -19,7 +19,7 @@ export default function Login() {
       <Header />
       {/* Navigation */}
       <div className="navigation">
-        <h1 className="navigation-title">LOGIN</h1>
+        <h2 className="navigation-title">LOGIN</h2>
         <div className="navigation-subtitle">
           <div className="navigation-subtitle-back">
             <IoHomeOutline />

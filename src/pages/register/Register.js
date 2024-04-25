@@ -18,7 +18,7 @@ export default function Register() {
     <div>
       <Header/>
       <div className="navigation">
-        <h1 className="navigation-title">REGISTER</h1>
+        <h2 className="navigation-title">REGISTER</h2>
         <div className="navigation-subtitle">
           <div className="navigation-subtitle-back">
             <IoHomeOutline/>

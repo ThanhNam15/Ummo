@@ -1,14 +1,14 @@
 /* Navigation */
 .navigation {
     width: 100%;
-    padding: 170px 0 100px;
+    padding: 150px 0 80px;
     text-align: center; 
     margin-bottom: 100px;
     background-color: var(--navigation-color);  
 }
 
 .navigation-title {
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     font-weight: 500;
 }
 
@@ -33,11 +33,11 @@
 
 .navigation-subtitle-link {
     margin-left: 6px;
-    color: var(--text-color);
+    color: #778082;
 }
 
 .navigation-subtitle-link:hover {
-    color: var(--primary-color);
+    color: var(--text-color);
 }
 
 /* Showing */

@@ -17,7 +17,7 @@ export default function Contact() {
       <Header/>
       {/* Navigation */}
       <div className="navigation">
-        <h1 className="navigation-title">CONTACT</h1>
+        <h2 className="navigation-title">CONTACT</h2>
         <div className="navigation-subtitle">
           <div className="navigation-subtitle-back">
             <IoHomeOutline/>

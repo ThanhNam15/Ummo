@@ -38,7 +38,7 @@ const arr = [ post_1, post_2, post_3, post_4, post_5];
       <Header/>
       {/* Navigation */}
       <div className="navigation">
-        <h1 className="navigation-title">BLOG</h1>
+        <h2 className="navigation-title">BLOG</h2>
         <div className="navigation-subtitle">
           <div className="navigation-subtitle-back">
             <IoHomeOutline/>
